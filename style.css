@@ -1,10 +1,56 @@
+body{
+    background-color: rgb(46, 46, 46);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 h1{
-    color: rgb(55, 55, 146);
+    color: rgb(61, 61, 209);
     font-size: 40px;
-    text-align: cente;
+    text-align: center;
 }
 
 button{
     background-color: rgb(47, 47, 163);
     color: white;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90px;
+}
+
+button:hover{
+    background-color: rgb(61, 61, 205);
+    height: 35px;
+}
+
+input{
+    height: 30px;
+    width: 75%;
+    border: 1px solid rgb(47, 47, 163);
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: rgb(46, 46, 46);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color: rgb(97, 97, 210);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 35px;
+}
+span{
+    cursor: pointer;
 }
